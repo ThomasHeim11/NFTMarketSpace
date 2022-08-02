@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 # CryptoKet - NFT MarketPlace
+=======
+NFT MarketPlace
+
+CryptoKet is made using the immense power of Solidity and Next.js. This project combines futuristic elements of Web3 blockchain development and the popular culture wave of non-fungible tokens (NFT).
+>>>>>>> 2bec253081414ebc7a390af66d2dc9ce91c805db
 
 ![App Screenshot](assets/nft-marketplace.jpg)
 
@@ -7,6 +13,7 @@ This NFT Markeplace is made using the immense power of Solidity and Next.js. Thi
 This application includes creation, buying, selling and reselling of NFTs and user authentication through metamask wallet. Its theme can be switched to both dark and light mode. 
 
 Context api is used for state management and tailwind css is used for styling the application. Solidity is used to write smart contract and hardhat is used to test the smart contract.
+<<<<<<< HEAD
 
 ## Getting Started
 
@@ -58,3 +65,5 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+=======
+>>>>>>> 2bec253081414ebc7a390af66d2dc9ce91c805db
