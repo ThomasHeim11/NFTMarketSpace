@@ -1,8 +1,8 @@
-# NFT MarketPlace
+# NFTMarketSpace
 
 ![App Screenshot](assets/nft-marketplace.jpg)
 
-NFT Marketplace is made using the power of Solidity and Next.js. This project combines elements of Web3 blockchain development and non-fungible tokens (NFT).
+NFTMarketSpace is made using the power of Solidity and Next.js. This project combines elements of Web3 blockchain development and non-fungible tokens (NFT).
 
 This application includes creation, buying, selling and reselling of NFTs and user authentication through metamask wallet. Its theme can be switched to both dark and light mode. 
 
