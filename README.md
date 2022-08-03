@@ -6,7 +6,7 @@ NFTMarketSpace is made using the power of Solidity and Next.js. This project com
 
 This application includes creation, buying, selling and reselling of NFTs and user authentication through metamask wallet. Its theme can be switched to both dark and light mode. 
 
-Context api is used for state management and tailwind css is used for styling the application. Solidity is used to write smart contract and hardhat is used to test the smart contract.
+Context api is used for state management and tailwind css is used for styling the application. Solidity is used to write smart contract and hardhat is used to test the smart contract..
 
 ## Getting Started
 
