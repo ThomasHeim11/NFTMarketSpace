@@ -11,17 +11,21 @@
   "dependencies": {
     "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers",
     "@nomiclabs/hardhat-waffle": "^2.0.3",
-    "@openzeppelin/contracts": "^4.7.1",
+    "@openzeppelin/contracts": "^4.7.3",
     "axios": "0.26.0",
     "crypto": "^1.0.1",
     "ethers": "^5.6.9",
     "hardhat": "^2.10.1",
     "ipfs-http-client": "56.0.1",
+    "mocha": "^10.0.0",
     "next": "^12.1.0",
     "next-themes": "0.1.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-dropzone": "12.0.4",
+    "solc": "^0.8.16",
+    "solc-0.8.4": "^1.0.1",
+    "solidity-docgen": "^0.6.0-beta.22",
     "web3modal": "1.9.5"
   },
   "devDependencies": {

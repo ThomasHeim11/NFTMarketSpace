@@ -1,10 +1,10 @@
 const { ethers } = require("hardhat")
 
 /* test/sample-test.js */
-describe("NFTMarket", function () {
+describe("NFTMarketPlace", function () {
     it("Should create and execute market sales", async function () {
         /* deploy the marketplace */
-        const Market = await ethers.getContractFactory("NFTMarket")
+        const Market = await ethers.getContractFactory("NFTMarketPlace")
         const market = await Market.deploy()
         await market.deployed()
         const marketAddress = market.address
@@ -51,3 +51,4 @@ describe("NFTMarket", function () {
 
     })
 })
+
