@@ -8,7 +8,7 @@ import { create as ipfsHttpClient } from 'ipfs-http-client';
 import { MarketAddress, MarketAddressABI } from './constants';
 
 const client = ipfsHttpClient('https://ipfs.infura.io:5001/api/v0');
-// const ALCHEMY_API_KEY = 'J3j597wRLgIrloRK1GEj3UhCdWZ7FsPI';
+// const ALCHEMY_API_KEY = 'https://polygon-mumbai.g.alchemy.com/v2/F6ghTkT8ZRc-WABSRgf_08kueyj79Z20';
 
 const fetchContract = (signerOrProvider) => new ethers.Contract(MarketAddress, MarketAddressABI, signerOrProvider);
 

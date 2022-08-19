@@ -9,7 +9,6 @@ import { makeId } from '../utils/makeId';
 import { NFTContext } from '../context/NFTContext';
 import { getCreators } from '../utils/getTopCreators';
 import { shortenAddress } from '../utils/shortenAddress';
-
 export default function Home() {
   const parentRef = useRef();
   const scrollRef = useRef();
@@ -130,8 +129,8 @@ export default function Home() {
                     creatorImage={images[`creator${i}`]}
                     creatorName={`0x${makeId(3)}...${makeId(4)}`}
                     creatorEths={10 - i * 0.5}
-                    />
-                  ))} */}
+                    />  ))} */}
+                 
                   {!hideButton && (
                     <>
                       <div onClick={()=>handleScroll('left')}
@@ -180,6 +179,7 @@ export default function Home() {
                   }}
                 />
               ))} */}
+                
               </div>
             </div> 
           </>
