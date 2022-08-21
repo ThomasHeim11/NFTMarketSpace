@@ -108,8 +108,15 @@ const Home = () => {
           <hi className='font-poppins dark:text-white text-nft-black-1 text-2xl minlg:text-4xl font-semibold sm:mb-4 flex-1'> 
           Hot NFTs
           </hi>
-          <div>SearchBar</div>
-        </div>
+          <div className='flex flex-row flex-2 sm:w-full sm:flex-col'>
+            <SearchBar
+              activeSelect={activeSelect}
+              setActiveSelect={setActiveSelect}
+              handleSearch={onHandleSearch}
+              clearSearch={onClearSearch}
+              />
+            </div>
+            </div>
         <div className='mt-3 w-full flex flex-wrap justify-start
          md:justify-center'>
                {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((i) => (
