@@ -34,7 +34,7 @@ const PaymentBodyCmp = ({nft, nftCurrency}) => {
           <p className='font-poppins dark:text-white text-nft-black-1 font-normal
               text-sm minlg:text-xl'>
               {nft.price} &nbsp;
-              <span className='font-semibold'>{nftCurrency}</span>
+              <span className='font-semibold'> MATIC </span>
           </p>
         </div>
       </div>
