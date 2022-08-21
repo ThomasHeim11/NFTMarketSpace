@@ -7,7 +7,7 @@ import { NFTCard, Loader, Button, Modal } from '../components';
 import images from '../assets';
 import { shortenAddress } from '../utils/shortenAddress';
 
-const PaymentBodyCmp = ({nft, nftCurrency}) => {
+const PaymentBodyCmp = ({nft, NFTCurrency}) => {
   return(
     <div className='flex flex-col'>
       {/* Row 1 */}
@@ -55,7 +55,7 @@ const PaymentBodyCmp = ({nft, nftCurrency}) => {
 }
 
 const NftDetails = () => {
-  const { currentAccount, nftCurrency, buyNFT, isLoadingNFT } = useContext(NFTContext);
+  const { currentAccount, NFTCurrency, buyNFT, isLoadingNFT } = useContext(NFTContext);
   const [isLoading, setIsLoading] = useState(true);
   const router = useRouter();
   const [nft, setNft] = useState({
@@ -133,7 +133,7 @@ const NftDetails = () => {
                 classStyles='mr-5 sm:mr-0 sm:mb-5 rounded-xl' 
                 handleClick={()=>router.push(`/resell-nft?tokenId=${nft.tokenId}&tokenURI=${nft.tokenURI}`)} />
             ) : (
-              <Button btnName={`Buy for ${nft.price} ${nftCurrency}`}
+              <Button btnName={`Buy for ${nft.price} ${NFTCurrency}`}
                 classStyles='mr-5 sm:mr-0 sm:mb-5 rounded-xl' handleClick={()=>setPaymentModal(true)}
               />
             )}
@@ -145,7 +145,7 @@ const NftDetails = () => {
       {paymentModal && (
         <Modal 
           header='Check Out'
-          body={<PaymentBodyCmp nft={nft} nftCurrency= "MATIC" />}
+          body={<PaymentBodyCmp nft={nft} nftCurrency= {NFTCurrency} />}
           footer={(
             <div className='flex flex-row sm:flex-col'>
               <Button
