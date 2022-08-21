@@ -17,7 +17,7 @@ export const NFTContext = React.createContext();
 export const NFTProvider = ({ children }) => {
   const [currentAccount, setCurrentAccount] = useState("");
   const [isLoadingNFT, setIsLoadingNFT] = useState(false);
-  const NFTCurrency = "ETH";
+  const NFTCurrency = "MATIC";
 
   const checkIfWalletIsConnected = async () => {
     if (!window.ethereum) return alert("Please install MetaMask.");

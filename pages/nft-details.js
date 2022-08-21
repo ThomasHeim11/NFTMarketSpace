@@ -145,7 +145,7 @@ const NftDetails = () => {
       {paymentModal && (
         <Modal 
           header='Check Out'
-          body={<PaymentBodyCmp nft={nft} nftCurrency={nftCurrency} />}
+          body={<PaymentBodyCmp nft={nft} nftCurrency= "MATIC" />}
           footer={(
             <div className='flex flex-row sm:flex-col'>
               <Button
