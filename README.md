@@ -52,3 +52,4 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+[![Thomas HeimLinkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thomas-heim11/)
